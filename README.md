@@ -17,8 +17,8 @@ Brief Howto:
 3. python <qasm2circ>/qasm2tex.py Circuit.qasm > Circuit.tex
 4. Modify the following lines in Circuit.tex
 
-\documentclass[crop=true,preview=true]{standalone}
-\input{../qasm2circ/xyqcirc.tex}
+    \documentclass[crop=true,preview=true]{standalone}
+    \input{../qasm2circ/xyqcirc.tex}
 
 The purpose of qasm2tex.py is to create a PDF of the circuit which can then be included in the text file.
 Then include the PDF into your LaTeX.  My suggestion is as follows, using the Overpic package:
