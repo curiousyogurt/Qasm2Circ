@@ -23,14 +23,14 @@ Brief Howto:
 The purpose of qasm2tex.py is to create a PDF of the circuit which can then be included in the text file.
 Then include the PDF into your LaTeX.  My suggestion is as follows, using the Overpic package:
 
-\begin{figure}
-    \begin{minipage}{\textwidth}
-    \begin{center}
-        \begin{overpic}[width=0.85\textwidth]{Circuit}
-            \put(x,y){Latex Text}
-        \end{overpic}
-        \caption{Circuit}
-        \label{fig:Circuit}
-    \end{center}
-  \end{minipage}
-\end{figure}
+    \begin{figure}
+        \begin{minipage}{\textwidth}
+        \begin{center}
+            \begin{overpic}[width=0.85\textwidth]{Circuit}
+                \put(x,y){Latex Text}
+            \end{overpic}
+            \caption{Circuit}
+            \label{fig:Circuit}
+        \end{center}
+      \end{minipage}
+    \end{figure}
