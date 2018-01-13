@@ -15,7 +15,7 @@ Brief Howto:
 1. Circuit.qasm file in <target> directory
 2. Copy meter.eps from <qasm2circ> directory to <target>
 3. python <qasm2circ>/qasm2tex.py Circuit.qasm > Circuit.tex
-4. Modify the following lines in Circuit.tex
+4. Modify the following lines in Circuit.tex:
 
     \documentclass[crop=true,preview=true]{standalone}
     \input{../qasm2circ/xyqcirc.tex}
